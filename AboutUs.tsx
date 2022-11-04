@@ -8,6 +8,7 @@ const AboutUs = () => {
         <li>Navn</li>
         <li>Navn</li>
         <li>Navn</li>
+        <li>Navn</li>
       </ul>
     </div>
   );
