@@ -22,7 +22,7 @@ export default function App() {
   return (
     <div>
       <div className="header">
-        <h1>Hello StackBlitz!</h1>
+        <h1>Velkommen til Girl Tech Fest!!</h1>
       </div>
 
       <ButtonGroup
