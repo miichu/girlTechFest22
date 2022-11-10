@@ -1,0 +1,41 @@
+body {
+  /* FARGE VARIABLER */
+  --color-green-dark: #062726;
+  --color-blue-dark: #102b3f;
+  --color-purple-dark: #6247aa;
+  --color-purple: #a06cd5;
+  --color-purple-light: #e2cfea;
+
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto';
+  background-color: var(--color-purple);
+}
+
+header {
+  width: 100%;
+  padding: 1rem 1rem;
+  background-color: var(--color-purple-dark);
+  color: white;
+  display: flex;
+  column-gap: 2em;
+  justify-content: space-between;
+}
+
+header > h1 {
+  margin: 0;
+}
+
+.menu {
+  margin-right: 2em;
+}
+
+section {
+  width: 100%;
+  height: 200px;
+  padding: 2rem 1rem;
+}
+
+main > section:last-child {
+  min-height: 500px;
+}

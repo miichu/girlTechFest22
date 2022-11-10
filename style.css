@@ -1,24 +1,11 @@
-body {
-  --color-green-dark: #062726;
-  --color-blue-dark: #102b3f;
-  --color-purple-dark: #6247aa;
-  --color-purple: #a06cd5;
-  --color-purple-light: #e2cfea;
-
-  font-family: 'roboto';
+.stylingForOppgave1 {
+  background-color: var(--color-purple-light);
 }
 
-nav {
-  
+.stylingForOppgave2 {
+  background-color: var(--color-purple);
 }
 
-.link {
-
-}
-
-.header {
-  width: 100%;
-  height: 100px;
+.stylingForOppgave3 {
   background-color: var(--color-purple-dark);
-  color: white;
 }
