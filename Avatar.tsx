@@ -3,9 +3,14 @@ import Avatar from '@mui/material/Avatar';
 import Grid from '@mui/material/Grid';
 
 const PersonligAvatar = ({ navn }) => {
-  console.log(navn);
+  // Her ser dere 4 avatarer som dere kan tilpasse jentene i gruppa ved å fylle inn navn og dere kan også velge bilde selv.
+
+  // Gå til Home.tsx og se om dere finner et sted det står: PersonligAvatar.På samme linje, erstatt alle steder der det står 'navn' med navnene på jentene i gruppa. Se om dere kan endre på rekkefølgen på navnene for å bytte avatar.
+
+  // Ekstra oppgave: Hvis dere har lyst på et annet bilde til avataren deres kan dere gå inn på google, finne et bilde og trykke 'Kopier bildeadresse', deretter kan dere erstatte det som står etter 'src' og lime inn bildeadressen.
+
   return (
-    <Grid container md={4}>
+    <Grid container md={4} className="avatar">
       <Grid item xs={3}>
         <Avatar
           src="https://www.norli.no/media/catalog/product/7/3/7331626125819.jpg?auto=webp&format=pjpg&width=1920&height=2400&fit=cover"
