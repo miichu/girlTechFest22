@@ -1,4 +1,5 @@
 import * as React from 'react';
+import PersonligAvatar from './Avatar';
 import OmOss from './OmOss';
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
 
       <section className="stylingForOppgave3">
         <h2>Oppgave 3</h2>
-        <p>Oppgave</p>
+        <PersonligAvatar navn={['Navn', 'Navn', 'Navn', 'Navn']} />
       </section>
 
       <section className="stylingForOppgave1">

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
 import OmOss from './OmOss';
-import FrontPage from './FrontPage';
 import Home from './Home';
 import './generalStyling.css';
 import './style.css';
