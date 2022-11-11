@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const AboutUs = () => {
+const OmOss = () => {
   // Skriv inn gruppenummer der det står Om gruppe:
 
   // Kopier linje 11 og lim den inn under for hvert medlem i gruppa. Erstatt alle steder hvor det står "Navn" med navnene på jentene i gruppa.
@@ -19,4 +19,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default OmOss;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import AboutUs from './AboutUs';
+import OmOss from './OmOss';
 import FrontPage from './FrontPage';
 import './style.css';
 import Button from '@mui/material/Button';
@@ -33,7 +33,7 @@ export default function App() {
         <Button onClick={() => setPage('aboutUs')}>About us</Button>
       </ButtonGroup>
 
-      {page === 'home' ? <FrontPage /> : <AboutUs />}
+      {page === 'home' ? <FrontPage /> : <OmOss />}
     </div>
   );
 }
