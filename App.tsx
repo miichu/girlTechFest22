@@ -2,6 +2,8 @@ import * as React from 'react';
 import { useState } from 'react';
 import OmOss from './OmOss';
 import FrontPage from './FrontPage';
+import Home from './Home';
+import './generalStyling.css';
 import './style.css';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
@@ -21,19 +23,20 @@ export default function App() {
 
   return (
     <div>
-      <div className="header">
-        <h1>Velkommen til Girl Tech Fest!!</h1>
-      </div>
+      <header className="header">
+        <h1>Girl Tech Fest</h1>
 
-      <ButtonGroup
-        variant="contained"
-        aria-label="outlined primary button group"
-      >
-        <Button onClick={() => setPage('home')}>Home</Button>
-        <Button onClick={() => setPage('aboutUs')}>About us</Button>
-      </ButtonGroup>
+        <ButtonGroup
+          variant="contained"
+          aria-label="outlined primary button group"
+          className="menu"
+        >
+          <Button onClick={() => setPage('home')}>Home</Button>
+          <Button onClick={() => setPage('aboutUs')}>About us</Button>
+        </ButtonGroup>
+      </header>
 
-      {page === 'home' ? <FrontPage /> : <OmOss />}
+      {page === 'home' ? <Home /> : <OmOss />}
     </div>
   );
 }

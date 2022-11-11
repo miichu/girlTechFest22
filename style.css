@@ -1,37 +1,3 @@
-body {
-  --color-green-dark: #062726;
-  --color-blue-dark: #102b3f;
-  --color-purple-dark: #6247aa;
-  --color-purple: #a06cd5;
-  --color-purple-light: #e2cfea;
-  --color-pink-light: #f48fb1;
-  --color-pink-darker: #f06292;
-
-  font-family: 'roboto';
-}
-
-nav {
-}
-
-.link {
-}
-
-.header {
-  width: 100%;
-  height: 100px;
-  background-color: var(--color-purple);
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-.header h1 {
-  text-align: center;
-  padding: 15px;
-}
-
 #about {
   position: relative;
   padding: 30px;
@@ -58,4 +24,15 @@ ul {
 
 li {
   padding: 3px 0 15px 25px;
+
+.stylingForOppgave1 {
+  background-color: var(--color-purple-light);
+}
+
+.stylingForOppgave2 {
+  background-color: var(--color-purple);
+}
+
+.stylingForOppgave3 {
+  background-color: var(--color-purple-dark);
 }
