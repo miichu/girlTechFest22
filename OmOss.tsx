@@ -14,11 +14,9 @@ const OmOss = () => {
     <div className="about-container">
       <main className="about">
         <h1>Om gruppe: </h1>
-        <div>
-          <ul>
-            <li>Navn</li>
-          </ul>
-        </div>
+        <ul>
+          <li>Navn</li>
+        </ul>
       </main>
     </div>
   );

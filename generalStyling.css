@@ -4,7 +4,9 @@ body {
   --color-blue-dark: #102b3f;
   --color-purple-dark: #6247aa;
   --color-purple: #a06cd5;
-  --color-purple-light: #e2cfea;
+  --color-purple-light: #e1bee7;
+  --color-purple-lighter: #e2cfea;
+  --color-purple-darker: #4a148c;
 
   margin: 0;
   padding: 0;
