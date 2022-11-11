@@ -1,29 +1,27 @@
-#about {
+.about {
   position: relative;
-  padding: 30px;
-  top: 50px;
 }
 
-#about-title {
-  color: var(--color-pink-darker);
+.about h1 {
+  color: #e1bee7;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#list-container {
+.about-container {
   text-align: center;
 }
 
-ul {
+.about ul {
   display: inline-block;
-  color: var(--color-pink-light);
+  color: #e1bee7;
   margin: auto;
   list-style-type: '🌈';
 }
 
-li {
-  padding: 3px 0 15px 25px;
+.about li {
+  padding: 3px 0 15px 20px;
 }
 
 .stylingForOppgave1 {

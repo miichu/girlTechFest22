@@ -1,4 +1,5 @@
 import * as React from 'react';
+import OmOss from './OmOss';
 
 const Home = () => {
   return (
@@ -9,8 +10,8 @@ const Home = () => {
         <p></p>
       </section>
       <section className="stylingForOppgave2">
-        <h2>Oppgave 2</h2>
-        <p>Oppgave </p>
+        <h2>Oppgave liste</h2>
+        <OmOss />
       </section>
 
       <section className="stylingForOppgave3">
