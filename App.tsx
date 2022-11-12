@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import AboutUs from './AboutUs';
+import OmOss from './OmOss';
 import Home from './Home';
 import './generalStyling.css';
 import './style.css';
@@ -35,7 +35,7 @@ export default function App() {
         </ButtonGroup>
       </header>
 
-      {page === 'home' ? <Home /> : <AboutUs />}
+      {page === 'home' ? <Home /> : <OmOss />}
     </div>
   );
 }
