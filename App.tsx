@@ -24,13 +24,13 @@ export default function App() {
             className={side === 'hjem' && 'active-page'}
             onClick={() => settSide('hjem')}
           >
-            Home
+            Hjem
           </Button>
           <Button
             className={side === 'omOss' && 'active-page'}
             onClick={() => settSide('omOss')}
           >
-            About us
+            Om oss
           </Button>
         </ButtonGroup>
       </header>

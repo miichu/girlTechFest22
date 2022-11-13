@@ -37,8 +37,8 @@ const SeksjonEndreTekstOgFarger = () => {
     <section className="">
       <h2>*Endre teksten her*</h2>
       <p>
-        GTF er et initiativ fra ODA Nettverket, TENK – Tech Nettverket for
-        kvinner, IKT Norge og Nasjonalt senter for realfagsrekruttering.
+        oi oi, for en kjedelig bakgrunnsfarge?? Hvit lism. Er det noe vi kan
+        gjøre for å endre denne? ;)
       </p>
     </section>
   );
