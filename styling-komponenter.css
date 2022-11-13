@@ -24,7 +24,7 @@ med: background-color: #e1bee7;
   color: var(--color-purple-light);
 }
 
-/* ------ OM GRUPPA ------ */
+/* ------ OM GRUPPA (oppg.2) ------ */
 
 .about {
   position: relative;
@@ -48,7 +48,7 @@ med: background-color: #e1bee7;
   padding: 3px 0 15px 20px;
 }
 
-/* ------PERSONLIG AVATAR------*/
+/* ------PERSONLIG AVATAR (oppg.3) ------*/
 
 .avatar {
   padding-left: 30px;
@@ -58,7 +58,7 @@ med: background-color: #e1bee7;
   padding: 2px 0 2px 10px;
 }
 
-/* --------- OPPGAVE 4 - KONFETTI KNAPP ---- */
+/* ------- KONFETTI KNAPP (oppg.4) ---- */
 
 .konfetti-knapp {
   font-family: 'roboto';
@@ -71,4 +71,4 @@ med: background-color: #e1bee7;
   background-color: var(--color-purple-dark);
 }
 
-/* Lim inn kodesnutten for oppg 4b her  */
+/* ✨ Lim inn kodesnutten for oppg 4b her  */

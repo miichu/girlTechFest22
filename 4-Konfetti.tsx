@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 /* OPPGAVE 4 - KONFETTI KNAPP
 * ----------------------------
 
-a) Legg til en knapp ved å kopiere kodesnutten under og 
+A) 🌸 Legg til en knapp ved å kopiere kodesnutten under og 
 lim den inn under </p>-taggen
 
 ```
@@ -16,17 +16,17 @@ lim den inn under </p>-taggen
   </button>
 ```
 
-b) Endre bakgrunnsfargen til knappen når man hovrer musepekeren over knappen ved å legge til styling vha pseudoklassen ":hover". Kopier kodesnutten under, og lim den inn nederst i "komponentStyling.css" filen.
+B) 🌸 Endre bakgrunnsfargen til knappen når man hovrer musepekeren over knappen ved å legge til styling vha pseudoklassen ":hover". Kopier kodesnutten under, og lim den inn nederst i "komponentStyling.css" filen.
 
-```
+``` 
 .konfetti-knapp:hover {
   background-color: var(--color-purple-darker);
 }
 ```
-c) Koble til funksjon til knappen til ved å sette "() => handleKonfetti()" inni "onClick={}" egenskapen til knappen din
+C) 🌸 Koble til funksjon til knappen til ved å sette "() => handleKonfetti()" inni "onClick={}" egenskapen til knappen din
 
 ```
-onClick={handleKonfetti}>
+onClick={() => handleKonfetti()}>
 ```
 
 * 
@@ -36,8 +36,8 @@ const Konfetti = () => {
   const { width, height } = useWindowSize();
   const [konfetti, settKonfetti] = React.useState<boolean>(false);
 
-  // FUNKSJON FOR Å SKRU KONFETTI AV OG PÅ
-  // NB, det tar litt tid før funksjonen aktiveres
+  // Funksjon for å skru konfetti av/på
+  // NB, det tar litt tid før funksjonen aktiveres når man trykker på knappen
   const handleKonfetti = () => {
     if (konfetti === true) {
       settKonfetti(false);
@@ -49,7 +49,7 @@ const Konfetti = () => {
   return (
     <section className="stylingForSeksjon4">
       {konfetti && <Confetti width={width} height={height} />}
-      <h2>Oppgave 4 - Konfetti Knapp </h2>
+      <h2>🎉 Oppgave 4 - Konfetti Knapp </h2>
       <p>
         I denne oppgaven, skal vi (1) legge til en knapp, (2) endre
         bakgrunnsfarge på knappen ved hover, og (3) koble en funksjon på knappen
