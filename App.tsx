@@ -1,9 +1,10 @@
 import * as React from 'react';
 import './generalStyling.css';
 import './style.css';
-import OmOss from './OmOss';
-import SeksjonEndreTekstOgFarger from './Seksjon1EndreTekstOgFarger';
-import PersonligAvatar from './PersonligAvatar';
+import Intro from './1Intro';
+import OmGruppa from './2OmGruppa';
+import PersonligAvatar from './3PersonligAvatar';
+import Konfetti from './4Konfetti';
 
 export default function App() {
   return (
@@ -13,19 +14,13 @@ export default function App() {
       </header>
 
       <main>
-        <SeksjonEndreTekstOgFarger />
+        <Intro />
 
-        <OmOss />
+        <OmGruppa />
 
-        <section className="stylingForOppgave3">
-          <h2>Oppgave 3</h2>
-          <PersonligAvatar navn={['Navn', 'Navn', 'Navn', 'Navn']} />
-        </section>
+        <PersonligAvatar navn={['Navn', 'Navn', 'Navn', 'Navn']} />
 
-        <section className="stylingForSeksjon4">
-          <h2>Oppgave 4</h2>
-          <p>Oppgave</p>
-        </section>
+        <Konfetti />
       </main>
     </div>
   );
