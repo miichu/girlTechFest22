@@ -1,16 +1,14 @@
 import * as React from 'react';
 import { useState } from 'react';
 import OmOss from './OmOss';
-import Home from './Home';
+import Hjem from './Hjem';
 import './generalStyling.css';
 import './style.css';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 
-type TPage = 'home' | 'aboutUs';
-
 export default function App() {
-  const [page, setPage] = useState<TPage>('home');
+  const [side, settSide] = useState<'hjem' | 'omOss'>('hjem');
 
   return (
     <div>
@@ -23,21 +21,21 @@ export default function App() {
           className="menu"
         >
           <Button
-            className={page === 'home' && 'active-page'}
-            onClick={() => setPage('home')}
+            className={side === 'hjem' && 'active-page'}
+            onClick={() => settSide('hjem')}
           >
             Home
           </Button>
           <Button
-            className={page === 'aboutUs' && 'active-page'}
-            onClick={() => setPage('aboutUs')}
+            className={side === 'omOss' && 'active-page'}
+            onClick={() => settSide('omOss')}
           >
             About us
           </Button>
         </ButtonGroup>
       </header>
 
-      {page === 'home' ? <Home /> : <OmOss />}
+      {side === 'hjem' ? <Hjem /> : <OmOss />}
     </div>
   );
 }
