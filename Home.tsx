@@ -1,15 +1,14 @@
 import * as React from 'react';
 import PersonligAvatar from './Avatar';
 import OmOss from './OmOss';
+import SeksjonEndreTekstOgFarger from './Seksjon1EndreTekstOgFarger';
 
 const Home = () => {
   return (
     <main className="home">
-      <section className="stylingForOppgave1">
-        <h2>Oppgave 1</h2>
-        <p>Oppgave</p>
-        <p></p>
-      </section>
+      
+      <SeksjonEndreTekstOgFarger/>
+     
 
       <section className="stylingForOppgave2">
         <h2>Oppgave liste</h2>
