@@ -5,6 +5,7 @@ import Intro from './1-Intro';
 import OmGruppa from './2-OmGruppa';
 import PersonligAvatar from './3-PersonligAvatar';
 import Konfetti from './4-Konfetti';
+import Typography from '@mui/material/Typography';
 
 export default function App() {
   return (
