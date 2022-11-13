@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div>
       <header className="header">
-        <h1>Girl Tech Fest</h1>
+        <h1>👾 Girl Tech Fest</h1>
       </header>
 
       <main>

@@ -1,6 +1,22 @@
 # Lag en nettside på Girl Tech Fest Workshop
 
+Workshoppen introduserer deg lett til html, css og js (vi har brukt React som et rammeverk). Formålet er å introdusere dere til hvordan man legger til html elementer, kobler på stylingklasser og funksjoner uten at man må redigere altfor mye. Vi ønsker at man skal ha det gøy, og bare se hva man kan få til gjennom å kode.
+
+Denne workshoppen er ment å redigeres på StackBlitz.
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-ch62ue)
+
+For å jobbe med din egen versjon av prosjektet, sørg for å "forke" prosjektet via Stackblitz.
+
+## Oppgaver
+
+Hver "seksjon" er en oppgave og skilles ut med sin egen bakgrunnsfarge.
+
+Totalt er det 4 oppgaver fordelt i sine egne filer: `1-Intro.tsx`, `2-OmGruppa.tsx`, `3-PersonligAvatar.tsx` og `4-Konfetti.tsx`. Oppgaven står forklart i hver sin fil, og de er uavhengige av hverandre. Du kan ta en titt og se hva som interesserer deg mest, og starte hvor enn du vil.
+
+1. `1-Intro.tsx` - Introduserer deg til bruk av html-tagen for overskrifter `<h2>` og css styling av bakgrunnsfarge
+2. `2-OmGruppa.tsx` - Hvordan du legger til tekst i lister (bruker html-taggene `<ul>, <li>`) og hvordan man kobler på css styling klasser
+3. `3-PersonligAvatar.tsx` -
+4. `4-Konfetti.tsx`
 
 ## Teknologistack brukt: Elementer, funksjonalitet og styling
 
@@ -23,10 +39,6 @@ Javascript er et kodespråk som brukes for å definerer funksjonalitet og logikk
 # React
 
 Det finnes rammeverk som gir deg mye bedre rammer og funksjonalitet til kodespråket, som gjør det lettere og gjenbruke komponenter, men også kjappere å lage nettsider. I utviklingsprosjekter, er det veldig vanlig å bruke et av disse, og i dette prosjektet har vi brukt rammeverket "React" som er er laget og vedlikeholdt av Meta (det som brukte å være Facebook).
-
-## Oppgaver:
-
-- Legg til oppgavene som skl gjøres her, og referer til dem i de ulike filene.
 
 ## Andre ressurser
 

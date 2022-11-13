@@ -22,13 +22,12 @@ import * as React from 'react';
 const Intro = () => {
   return (
     <section className="">
+      <p>
+        Hei! Velkommen til workshop med oss! ✨ Vi har gledet oss masse til å ha workshop med dere, og skulle noe være uklart så må dere bare huke tak i en av oss! 
+        Vi er her for å hjelpe 😺✨
+      </p>
       <h2>...</h2>
       <p>Sjekk ut oppgaven for denne seksjonen i fil "1-Intro.tsx".</p>
-      <p>
-        Hei! Velkommen til workshop med oss! Hvis det er noe som skulle være
-        uklart, er det bare å stille en av oss som går rundt spørsmål! Heller en
-        gang for mye enn for lite 😺✨
-      </p>
     </section>
   );
 };
