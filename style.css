@@ -32,6 +32,13 @@
   padding: 2px 0 2px 10px;
 }
 
+/*  STYLING FOR Seksjon1EndreTekstOgFarger.tsx */
+/* 
+Under bruker vi en fargevariabel vi har satt i css-filen "generalStyling.css". Det går også helt fint å erstatte "var(--color-purple-light)" med en HEX fargekode direkte. 
+
+Erstatt:  background-color: var(--color-purple-light); 
+med: background-color: #e1bee7;
+*/
 .stylingForSeksjon1 {
   background-color: var(--color-purple-light);
 }
@@ -44,4 +51,9 @@
 .stylingForOppgave3 {
   background-color: var(--color-purple-dark);
   color: var(--color-purple-darker);
+}
+
+.stylingForSeksjon4 {
+  background-color: var(--color-blue-darker);
+  color: var(--color-purple-light);
 }

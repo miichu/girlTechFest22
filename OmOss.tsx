@@ -11,14 +11,18 @@ const OmOss = () => {
   // For å se en litt finere liste, legg til dette: className="about" etter der det står <main
 
   return (
-    <div className="about-container">
-      <main className="about">
-        <h1>Om gruppe: </h1>
-        <ul>
-          <li>Navn</li>
-        </ul>
-      </main>
-    </div>
+    <section className="stylingForOppgave2">
+      <h2>Oppgave liste</h2>
+
+      <div className="about-container">
+        <main className="about">
+          <h1>Om gruppe: </h1>
+          <ul>
+            <li>Navn</li>
+          </ul>
+        </main>
+      </div>
+    </section>
   );
 };
 

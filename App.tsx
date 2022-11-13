@@ -1,41 +1,32 @@
 import * as React from 'react';
-import { useState } from 'react';
-import OmOss from './OmOss';
-import Hjem from './Hjem';
 import './generalStyling.css';
 import './style.css';
-import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
+import OmOss from './OmOss';
+import SeksjonEndreTekstOgFarger from './Seksjon1EndreTekstOgFarger';
+import PersonligAvatar from './PersonligAvatar';
 
 export default function App() {
-  const [side, settSide] = useState<'hjem' | 'omOss'>('hjem');
-
   return (
     <div>
       <header className="header">
         <h1>Girl Tech Fest</h1>
-
-        <ButtonGroup
-          variant="contained"
-          aria-label="outlined primary button group"
-          className="menu"
-        >
-          <Button
-            className={side === 'hjem' && 'active-page'}
-            onClick={() => settSide('hjem')}
-          >
-            Hjem
-          </Button>
-          <Button
-            className={side === 'omOss' && 'active-page'}
-            onClick={() => settSide('omOss')}
-          >
-            Om oss
-          </Button>
-        </ButtonGroup>
       </header>
 
-      {side === 'hjem' ? <Hjem /> : <OmOss />}
+      <main>
+        <SeksjonEndreTekstOgFarger />
+
+        <OmOss />
+
+        <section className="stylingForOppgave3">
+          <h2>Oppgave 3</h2>
+          <PersonligAvatar navn={['Navn', 'Navn', 'Navn', 'Navn']} />
+        </section>
+
+        <section className="stylingForSeksjon4">
+          <h2>Oppgave 4</h2>
+          <p>Oppgave</p>
+        </section>
+      </main>
     </div>
   );
 }

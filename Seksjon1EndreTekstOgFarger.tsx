@@ -13,17 +13,9 @@ const SeksjonEndreTekstOgFarger = () => {
    *  OPPGAVE 2 - ENDRE BAKGRUNNSFARGE (styling på seksjon)
    * ---------------------------------------
    
-   Som du ser, er bakgrunnsfargen på seksjonen foreløpig hvit. I denne oppgaven, 
-   vil vi at dere skal endre på bakgrunnsfargen vha enten inline styling eller 
-   å koble på en stylingklasse som vi allerede har laget.. 
+   Som du ser, er bakgrunnsfargen på seksjonen foreløpig hvit. I denne oppgaven, vil vi at dere skal endre på bakgrunnsfargen ved å koble på en stylingklasse som vi allerede har laget.  
 
-  Les mer om de ulike styling metodene i ReadMe.md filen.
-
-  METODE 1: Inline styling (dvs. å style koden direkte i samme fil)
-   - Erstatt 'className="" ' med 
-   "style={{ 'background-color': 'var(--color-purple-light)' }}"
-
-  METODE 2: Styling via ekstern styling sheet  (anbefalt)
+  Dette gjør dere ved å:
    - Endre klassenavnet til seksjon til className="stylingForSeksjon1"
 
    Da skal <section> se slik ut:
@@ -31,14 +23,17 @@ const SeksjonEndreTekstOgFarger = () => {
       ...
       </section>
 
+      
+
    */
 
   return (
     <section className="">
-      <h2>*Endre teksten her*</h2>
+      <h2>...</h2>
       <p>
-        oi oi, for en kjedelig bakgrunnsfarge?? Hvit lism. Er det noe vi kan
-        gjøre for å endre denne? ;)
+        Hei! Velkommen til workshop med oss! Hvis det er noe som skulle være
+        uklart, er det bare å stille en av oss som går rundt spørsmål! Heller en
+        gang for mye enn for lite 😺✨
       </p>
     </section>
   );
