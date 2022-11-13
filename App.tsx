@@ -1,6 +1,6 @@
 import * as React from 'react';
-import './generalStyling.css';
-import './style.css';
+import './styling-generell.css';
+import './styling-komponenter.css';
 import Intro from './1Intro';
 import OmGruppa from './2OmGruppa';
 import PersonligAvatar from './3PersonligAvatar';

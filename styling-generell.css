@@ -38,20 +38,10 @@ section > h2 {
   padding-bottom: 0.5rem;
 }
 
+section p {
+  padding-right: 4rem;
+}
+
 main > section:last-child {
   min-height: 300px;
-}
-
-.konfetti-knapp {
-  font-family: 'roboto';
-  font-weight: 500;
-  color: var(--color-purple-light);
-  background-color: var(--color-purple-dark);
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  border: 3px solid var(--color-purple-lighter);
-}
-
-.konfetti-knapp:hover {
-  filter: brightness(80%);
 }
