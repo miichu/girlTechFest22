@@ -3,12 +3,10 @@ import PersonligAvatar from './Avatar';
 import OmOss from './OmOss';
 import SeksjonEndreTekstOgFarger from './Seksjon1EndreTekstOgFarger';
 
-const Home = () => {
+const Hjem = () => {
   return (
     <main className="home">
-      
-      <SeksjonEndreTekstOgFarger/>
-     
+      <SeksjonEndreTekstOgFarger />
 
       <section className="stylingForOppgave2">
         <h2>Oppgave liste</h2>
@@ -28,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hjem;
