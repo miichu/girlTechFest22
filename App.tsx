@@ -12,14 +12,6 @@ type TPage = 'home' | 'aboutUs';
 export default function App() {
   const [page, setPage] = useState<TPage>('home');
 
-  /* 
-    Erstatt button toggling med lenker hvis det går uten å måtte legge til routing
-     <nav>
-        <a href="./FrontPage.tsx">Home</a>
-        <a href="./AboutUs.tsx">About us</a>
-      </nav>
-  */
-
   return (
     <div>
       <header className="header">
@@ -30,8 +22,18 @@ export default function App() {
           aria-label="outlined primary button group"
           className="menu"
         >
-          <Button onClick={() => setPage('home')}>Home</Button>
-          <Button onClick={() => setPage('aboutUs')}>About us</Button>
+          <Button
+            className={page === 'home' && 'active-page'}
+            onClick={() => setPage('home')}
+          >
+            Home
+          </Button>
+          <Button
+            className={page === 'aboutUs' && 'active-page'}
+            onClick={() => setPage('aboutUs')}
+          >
+            About us
+          </Button>
         </ButtonGroup>
       </header>
 
