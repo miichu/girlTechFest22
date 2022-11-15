@@ -16,20 +16,18 @@ lim den inn under </p>-taggen
   </button>
 ```
 
-B) 🌸 Endre bakgrunnsfargen til knappen når man hovrer musepekeren over knappen ved å legge til styling vha pseudoklassen ":hover". Kopier kodesnutten under, og lim den inn nederst i "komponentStyling.css" filen.
+B) 🌸 Endre bakgrunnsfargen til knappen når man hovrer musepekeren over knappen ved å legge til styling vha pseudoklassen ":hover". Kopier kodesnutten under, og lim den inn nederst i "styling-komponenter.css" filen.
 
 ``` 
 .konfetti-knapp:hover {
   background-color: var(--color-purple-darker);
 }
 ```
-C) 🌸 Koble til funksjon til knappen til ved å sette "() => handleKonfetti()" inni "onClick={}" egenskapen til knappen din
+C) 🌸 Koble til funksjon til knappen ved å sette "() => handleKonfetti()" inni "onClick={}" egenskapen til knappen din
 
 ```
 onClick={() => handleKonfetti()}>
-```
-
-* 
+``` 
 */
 
 const Konfetti = () => {
