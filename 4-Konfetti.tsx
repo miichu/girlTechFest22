@@ -51,7 +51,8 @@ const Konfetti = () => {
       <p>
         I denne oppgaven, skal vi (1) legge til en knapp, (2) endre
         bakgrunnsfarge på knappen ved hover, og (3) koble en funksjon på knappen
-        vår. Sjekk ut filen som heter <strong> 4-Konfetti.tsx!</strong>
+        vår. Sjekk ut oppgaveteksten i filen som heter
+        <strong> "4-Konfetti.tsx".</strong>
       </p>
     </section>
   );

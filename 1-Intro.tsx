@@ -4,7 +4,7 @@ import * as React from 'react';
 /*  OPPGAVE 1A - OVERSKRIFT (heading) 
    * ---------------------------------------
    I denne oppgaven, vil vi at dere skal endre overskriftsteksten til innholdet under. 
-   🌸 Endre teksten inni heading 2 taggen "<h2> ... </h2>" til "Oppgave 1 og 2 - Intro". 
+   🌸 Endre teksten inni heading 2 taggen "<h2> ... </h2>" til "👋 Oppgave 1 - Intro". 
 
    *  OPPGAVE 1B - ENDRE BAKGRUNNSFARGE (styling på seksjon)
    * ---------------------------------------
@@ -28,7 +28,10 @@ const Intro = () => {
         en av oss! Vi er her for å hjelpe 😺✨
       </p>
       <h2>...</h2>
-      <p>Sjekk ut oppgaven for denne seksjonen i fil "1-Intro.tsx".</p>
+      <p>
+        Sjekk ut oppgaven for denne seksjonen i fil{' '}
+        <strong>"1-Intro.tsx"</strong>.
+      </p>
     </section>
   );
 };

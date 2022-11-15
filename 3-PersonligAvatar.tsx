@@ -17,7 +17,8 @@ const PersonligAvatar = ({ navn }) => {
       <h2>😺 Oppgave 3 - Personlig Avatar</h2>
       <p>
         Her ser dere 4 avatarer som vi vil at dere skal tilpasse jentene på
-        gruppa 🐶 Sjekk ut filen som heter 3-PersonligAvatar.tsx!
+        gruppa 🐶 Sjekk ut filen som heter
+        <strong>"3-PersonligAvatar.tsx" </strong>!
       </p>
       <Grid container md={7} className="avatar">
         <Grid item xs={3}>

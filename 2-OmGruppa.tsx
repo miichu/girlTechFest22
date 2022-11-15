@@ -21,8 +21,8 @@ const OmGruppa = () => {
         <p>
           Vi trenger litt informasjon om hvem som er med på gruppa! Vi vil at
           dere skal fikse listen under slik at den viser navnene på alle jentene
-          på gruppa 🌸 Gå til filen som heter 2-OmGuppa.tsx og følg det som står
-          i grønn tekst.
+          på gruppa 🌸 Gå til filen som heter <strong>"2-OmGuppa.tsx"</strong>{' '}
+          og følg det som står i grønn tekst.
         </p>
         <div>
           <h3>Om gruppa: </h3>
