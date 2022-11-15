@@ -16,7 +16,7 @@ Totalt er det 4 oppgaver fordelt i sine egne filer: `1-Intro.tsx`, `2-OmGruppa.t
 1. `1-Intro.tsx` - Introduserer deg til bruk av html-tagen for overskrifter `<h2>` og css styling av bakgrunnsfarge
 2. `2-OmGruppa.tsx` - Hvordan du legger til tekst i lister (bruker html-taggene `<ul>, <li>`) og hvordan man kobler på css styling klasser
 3. `3-PersonligAvatar.tsx` -
-4. `4-Konfetti.tsx` - Hvordan man legger til en knapp `<button>`, endre bakgrunnsfarge på hoved (vha en pseudoklasse `:hover`) og koble på en funksjon (`<button onClick={() => funksjon()} > *buttonText* </button>`) på en knapp som toggler konfetti.
+4. `4-Konfetti.tsx` - Hvordan man legger til en knapp `<button>`, endre bakgrunnsfarge på hoved (vha en pseudoklasse `:hover`) og koble på en funksjon (`<button onClick={() => funksjon()} > *knappTekst* </button>`) på en knapp som toggler konfetti.
 
 # Teknologistack brukt: Elementer, funksjonalitet og styling
 
