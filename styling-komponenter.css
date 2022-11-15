@@ -26,25 +26,11 @@ med: background-color: #e1bee7;
 
 /* ------ OM GRUPPA (oppg.2) ------ */
 
-.about {
-  position: relative;
-  text-align: center;
-}
-
-.about h1 {
-  color: var(--color-purple-light);
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.about ul {
-  display: inline-block;
-  color: var(--color-purple-light);
-  margin: auto;
+.omOss ul {
   list-style-type: '🌈';
 }
 
-.about li {
+.omOss li {
   padding: 3px 0 15px 20px;
 }
 
