@@ -16,7 +16,7 @@ C) 🌸 For å se en litt finere liste, legg til dette: className="omOss" etter 
 const OmGruppa = () => {
   return (
     <section className="stylingForSeksjon2">
-      <div>
+      <div className="omOss">
         <h2>👩‍👩‍👧 Oppgave 2 - Om Gruppa </h2>
         <p>
           Vi trenger litt informasjon om hvem som er med på gruppa! Vi vil at
@@ -25,9 +25,11 @@ const OmGruppa = () => {
           og følg det som står i grønn tekst.
         </p>
         <div>
-          <h3>Om gruppa: </h3>
+          <h3>Om gruppa: bekkelaget 5c </h3>
           <ul>
-            <li>Navn</li>
+            <li>eline</li>
+            <li>jenny</li>
+            <li>my</li>
           </ul>
         </div>
       </div>

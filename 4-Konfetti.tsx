@@ -54,6 +54,9 @@ const Konfetti = () => {
         vår. Sjekk ut oppgaveteksten i filen som heter
         <strong> "4-Konfetti.tsx".</strong>
       </p>
+      <button className="konfetti-knapp" onClick={() => handleKonfetti()}>
+    {konfetti ? 'Konfetti PÅ' : 'Konfetti AV'}
+  </button>
     </section>
   );
 };

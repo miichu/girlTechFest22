@@ -23,28 +23,28 @@ const PersonligAvatar = ({ navn }) => {
       <Grid container md={7} className="avatar">
         <Grid item xs={3}>
           <Avatar
-            src="https://www.norli.no/media/catalog/product/7/3/7331626125819.jpg?auto=webp&format=pjpg&width=1920&height=2400&fit=cover"
+            src="https://64.media.tumblr.com/8093f48d41140c8dc410eb278e35599d/tumblr_oo2n9a4XcN1sqnsado1_r1_500.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[0]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
+            src="https://render.fineartamerica.com/images/rendered/default/canvas-print/10/6.5/mirror/break/images/artworkimages/medium/2/side-view-of-girl-kicking-soccer-ball-at-field-against-sky-during-sunset-cavan-images-canvas-print.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[1]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://www.ikea.com/no/no/images/products/smycka-kunstige-blomster-rose-rosa__0903523_pe596725_s5.jpg"
+            src="https://i.pinimg.com/736x/c9/96/8c/c9968cca48a6b3095ae15e95e9e43678.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[2]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://evidensia.no/getmedia/ec099f6f-9572-49b6-85d2-2af26ec0baf8/kjope-valp-2"
+            src="https://cdn.britannica.com/92/211792-050-E764F875/American-singer-Ariana-Grande-2018.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[3]}</p>

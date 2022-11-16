@@ -27,7 +27,7 @@ const Intro = () => {
         workshop med dere, og skulle noe være uklart så må dere bare huke tak i
         en av oss! Vi er her for å hjelpe 😺✨
       </p>
-      <h2>...</h2>
+      <h2>hei mitt navn er bob</h2>
       <p>
         Sjekk ut oppgaven for denne seksjonen i fil{' '}
         <strong>"1-Intro.tsx"</strong>.
