@@ -23,28 +23,28 @@ const PersonligAvatar = ({ navn }) => {
       <Grid container md={7} className="avatar">
         <Grid item xs={3}>
           <Avatar
-            src="https://www.norli.no/media/catalog/product/7/3/7331626125819.jpg?auto=webp&format=pjpg&width=1920&height=2400&fit=cover"
+            src="https://harunmudak.com/wp-content/uploads/2020/12/cute-cartoon-characters-2-1024x1024.png"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[0]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
+            src="https://static8.depositphotos.com/1000792/861/v/450/depositphotos_8614495-stock-illustration-fun-zoo-koala.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[1]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://www.ikea.com/no/no/images/products/smycka-kunstige-blomster-rose-rosa__0903523_pe596725_s5.jpg"
+            src="https://i.pinimg.com/originals/d4/51/b2/d451b242dcfafe6ac710c790ca7b5be4.png"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[2]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://evidensia.no/getmedia/ec099f6f-9572-49b6-85d2-2af26ec0baf8/kjope-valp-2"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5BXfmtW_d688mEISM2-Ong3ASFgCcqyEl-A&usqp=CAU"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[3]}</p>

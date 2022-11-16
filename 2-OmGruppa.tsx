@@ -19,15 +19,13 @@ const OmGruppa = () => {
       <div>
         <h2>👩‍👩‍👧 Oppgave 2 - Om Gruppa </h2>
         <p>
-          Vi trenger litt informasjon om hvem som er med på gruppa! Vi vil at
-          dere skal fikse listen under slik at den viser navnene på alle jentene
-          på gruppa 🌸 Gå til filen som heter <strong>"2-OmGuppa.tsx"</strong>{' '}
-          og følg det som står i grønn tekst.
+          
         </p>
         <div>
           <h3>Om gruppa: </h3>
           <ul>
-            <li>Navn</li>
+            <li>carla</li>
+            <li>marie</li>
           </ul>
         </div>
       </div>

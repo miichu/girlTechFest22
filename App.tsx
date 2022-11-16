@@ -19,7 +19,7 @@ export default function App() {
 
         <OmGruppa />
 
-        <PersonligAvatar navn={['Navn', 'Navn', 'Navn', 'Navn']} />
+        <PersonligAvatar navn={['blob', 'bob', 'stitch', 'doris']} />
 
         <Konfetti />
       </main>
