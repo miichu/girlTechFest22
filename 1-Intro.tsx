@@ -23,14 +23,12 @@ const Intro = () => {
   return (
     <section className="">
       <p>
-        Hei! Velkommen til workshop med oss! ✨ Vi har gledet oss masse til å ha
-        workshop med dere, og skulle noe være uklart så må dere bare huke tak i
-        en av oss! Vi er her for å hjelpe 😺✨
+    🎄🎄🎄🌺❄️☃️⛄️ god jul men jeg må skuffe dere med og si at det fortsatt er korona i norpolen og dermed er julenisen i isolasjon frem til etter deres liv sikkert er ferdig😂😂😂😔😔😔😷😷😷🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠men dere kan gi gaver til han han trenger antibac og munnbind😔😔og sikkert enda mere smittevernsutstyr
       </p>
       <h2>...</h2>
       <p>
-        Sjekk ut oppgaven for denne seksjonen i fil{' '}
-        <strong>"1-Intro.tsx"</strong>.
+        god jul selom det bare er Novenber!!!{' '}
+        <strong></strong>.
       </p>
     </section>
   );

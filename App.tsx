@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div>
       <header className="header">
-        <h1>👾 Girl Tech Fest</h1>
+        <h1>🦠🦠🦠😷😷JULEN 2022😷😷🦠🦠🦠</h1>
       </header>
 
       <main>
@@ -19,7 +19,7 @@ export default function App() {
 
         <OmGruppa />
 
-        <PersonligAvatar navn={['Navn', 'Navn', 'Navn', 'Navn']} />
+        <PersonligAvatar navn={['julie victoria', 'Julie', 'mariam','daycha']} />
 
         <Konfetti />
       </main>

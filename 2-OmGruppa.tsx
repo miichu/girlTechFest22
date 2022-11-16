@@ -17,17 +17,15 @@ const OmGruppa = () => {
   return (
     <section className="stylingForSeksjon2">
       <div>
-        <h2>👩‍👩‍👧 Oppgave 2 - Om Gruppa </h2>
+        <h2>😷😷😷</h2>
         <p>
-          Vi trenger litt informasjon om hvem som er med på gruppa! Vi vil at
-          dere skal fikse listen under slik at den viser navnene på alle jentene
-          på gruppa 🌸 Gå til filen som heter <strong>"2-OmGuppa.tsx"</strong>{' '}
-          og følg det som står i grønn tekst.
+          bad news <strong></strong>{' '}
+          
         </p>
         <div>
-          <h3>Om gruppa: </h3>
+          <h3>julenissen er dødssyk </h3>
           <ul>
-            <li>Navn</li>
+            <li>pass på!!!han ligger i koma</li>
           </ul>
         </div>
       </div>

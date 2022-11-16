@@ -16,35 +16,34 @@ const PersonligAvatar = ({ navn }) => {
     <section className="stylingForSeksjon3">
       <h2>😺 Oppgave 3 - Personlig Avatar</h2>
       <p>
-        Her ser dere 4 avatarer som vi vil at dere skal tilpasse jentene på
-        gruppa 🐶 Sjekk ut filen som heter
-        <strong>"3-PersonligAvatar.tsx" </strong>!
+        han er død
+        <strong> </strong>!
       </p>
       <Grid container md={7} className="avatar">
         <Grid item xs={3}>
           <Avatar
-            src="https://www.norli.no/media/catalog/product/7/3/7331626125819.jpg?auto=webp&format=pjpg&width=1920&height=2400&fit=cover"
+            src="https://www.pngitem.com/pimgs/m/524-5249204_cute-disney-stitch-hd-png-download.png"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[0]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
+            src="https://verdensbestenyheter.no/wp-content/uploads/2020/09/16402574116_fde4556f3d_o-1-1024x611.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[1]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://www.ikea.com/no/no/images/products/smycka-kunstige-blomster-rose-rosa__0903523_pe596725_s5.jpg"
+            src="https://www.nysgjerrigper.no/siteassets/bilder-artikler/2017-3/katter-foto-shutterstock.jpg?transform=DownFit&width=1000"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[2]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://evidensia.no/getmedia/ec099f6f-9572-49b6-85d2-2af26ec0baf8/kjope-valp-2"
+            src="https://static.dw.com/image/60744189_403.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[3]}</p>
