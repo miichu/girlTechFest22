@@ -23,21 +23,21 @@ const PersonligAvatar = ({ navn }) => {
       <Grid container md={7} className="avatar">
         <Grid item xs={3}>
           <Avatar
-            src="https://www.norli.no/media/catalog/product/7/3/7331626125819.jpg?auto=webp&format=pjpg&width=1920&height=2400&fit=cover"
+            src="https://cdn.pixabay.com/photo/2020/04/08/21/49/star-5018946_960_720.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[0]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
+            src="https://static.vecteezy.com/system/resources/previews/008/420/445/original/cute-panda-with-bamboo-cartoon-icon-illustration-animal-nature-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[1]}</p>
         </Grid>
         <Grid item xs={3}>
           <Avatar
-            src="https://www.ikea.com/no/no/images/products/smycka-kunstige-blomster-rose-rosa__0903523_pe596725_s5.jpg"
+            src="https://static.vecteezy.com/system/resources/previews/002/787/928/original/cute-orange-cat-paws-up-over-wall-cartoon-illustration-vector.jpg"
             sx={{ width: 75, height: 75 }}
           />
           <p>{navn[2]}</p>

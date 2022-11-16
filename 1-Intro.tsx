@@ -21,13 +21,15 @@ import * as React from 'react';
 
 const Intro = () => {
   return (
-    <section className="">
+    <section className="stylingForSeksjon1">
       <p>
-        Hei! Velkommen til workshop med oss! ✨ Vi har gledet oss masse til å ha
-        workshop med dere, og skulle noe være uklart så må dere bare huke tak i
-        en av oss! Vi er her for å hjelpe 😺✨
+        hei jeg heter MINHA jeg går i stovner skole 5B🐼✨ jeg her 4 søsken en store bror en store søster lillebror og me😄
+        
+        
+        jeg heter rahima jeg like pugramaring og jeg har en snil lærer som heter frida  er gøy på skolen jeg har en store bror og en lille søster
+        Jeg heter Aalia å jeg har en av de beste faglerenr som heter Frida. hene gjør skolen mye gøyere. 
       </p>
-      <h2>...</h2>
+      <h2>oppgave 1</h2>
       <p>
         Sjekk ut oppgaven for denne seksjonen i fil{' '}
         <strong>"1-Intro.tsx"</strong>.
