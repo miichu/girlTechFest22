@@ -4,7 +4,7 @@ import * as React from 'react';
 /*  OPPGAVE 1A - OVERSKRIFT (heading) 
    * ---------------------------------------
    I denne oppgaven, vil vi at dere skal endre overskriftsteksten til innholdet under. 
-   🌸 Endre teksten inni heading 2 taggen "<h2> ... </h2>" til "👋 Oppgave 1 - Intro". 
+   🌸 Endre teksten inni heading 2 taggen "<h2> ... </h2>" til "👋v Oppgave 1 - Intro". 
 
    *  OPPGAVE 1B - ENDRE BAKGRUNNSFARGE (styling på seksjon)
    * ---------------------------------------
@@ -21,13 +21,16 @@ import * as React from 'react';
 
 const Intro = () => {
   return (
-    <section className="">
+    <section className="stylingForSeksjon1">
       <p>
         Hei! Velkommen til workshop med oss! ✨ Vi har gledet oss masse til å ha
         workshop med dere, og skulle noe være uklart så må dere bare huke tak i
         en av oss! Vi er her for å hjelpe 😺✨
       </p>
-      <h2>...</h2>
+      <h2>
+        👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋
+        👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋 👋{' '}
+      </h2>
       <p>
         Sjekk ut oppgaven for denne seksjonen i fil{' '}
         <strong>"1-Intro.tsx"</strong>.

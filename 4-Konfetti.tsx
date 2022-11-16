@@ -23,7 +23,8 @@ B) 🌸 Endre bakgrunnsfargen til knappen når man hovrer musepekeren over knapp
   background-color: var(--color-purple-darker);
 }
 ```
-C) 🌸 Koble til funksjon til knappen ved å sette "() => handleKonfetti()" inni "onClick={}" egenskapen til knappen din
+C) 🌸 Koble til funksjon til knappen ved å sette
+ "() => handleKonfetti()" inni "onClick={}" egenskapen til knappen din
 
 ```
 onClick={() => handleKonfetti()}>
@@ -54,6 +55,9 @@ const Konfetti = () => {
         vår. Sjekk ut oppgaveteksten i filen som heter
         <strong> "4-Konfetti.tsx".</strong>
       </p>
+      <button className="konfetti-knapp" onClick={() => handleKonfetti()}>
+        {konfetti ? 'Konfetti PÅ' : 'Konfetti AV'}
+      </button>
     </section>
   );
 };

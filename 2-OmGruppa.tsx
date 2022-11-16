@@ -25,9 +25,11 @@ const OmGruppa = () => {
           og følg det som står i grønn tekst.
         </p>
         <div>
-          <h3>Om gruppa: </h3>
+          <h3>Om gruppa L LOSER NOOB IRL HACKER NOOB: </h3>
           <ul>
-            <li>Navn</li>
+            <li></li>
+            <li>urmomia</li>
+            <li>sana</li>
           </ul>
         </div>
       </div>

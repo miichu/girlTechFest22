@@ -58,3 +58,6 @@ med: background-color: #e1bee7;
 }
 
 /* ✨ Lim inn kodesnutten for oppg 4b her  */
+.konfetti-knapp:hover {
+  background-color: var(--color-purple-darker);
+}
